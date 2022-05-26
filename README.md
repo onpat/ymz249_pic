@@ -43,3 +43,7 @@ Then, Please use Raspberry pi and eeprog to write song.<br>
 https://www.richud.com/wiki/Rasberry_Pi_I2C_EEPROM_Program<br>
 with this command: ./eeprog -f -16 -i songfile -w 0x00 -t 5 /dev/i2c-1 0x50<br>
 It may take a while(about 3 min for 32KB song)<br>
+<br>
+<br>
+I can't compile in MPLAB!<br>
+I use old version of MPLAB(v7.60), So new assembler wouldn't compile this code ...<br>
